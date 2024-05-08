@@ -108,6 +108,7 @@ const ContactUs = ({ className }) => {
                 <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
               </svg>
               <input
+                name="email"
                 value={email}
                 type="text"
                 className="grow"
@@ -136,6 +137,7 @@ const ContactUs = ({ className }) => {
                 </g>
               </svg>
               <input
+                name="mobile"
                 value={mobile}
                 type="number"
                 className="grow"
@@ -148,6 +150,7 @@ const ContactUs = ({ className }) => {
 
             {/* TextArea */}
             <textarea
+              name="message"
               value={message}
               className="textarea textarea-bordered"
               placeholder="Enter Message"
