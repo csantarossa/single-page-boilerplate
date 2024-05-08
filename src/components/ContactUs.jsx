@@ -1,12 +1,12 @@
 import React from "react";
 import Mail from "@geist-ui/icons/mail";
 
-const ContactUs = () => {
+const ContactUs = ({ className }) => {
   return (
     <div>
       {/* Open the modal using document.getElementById('ID').showModal() method */}
       <button
-        className=""
+        className={className}
         onClick={() => document.getElementById("my_modal_5").showModal()}
       >
         Contact Us
