@@ -8,7 +8,7 @@ const CustomerReview = () => {
   return (
     <div className="w-full min-h-screen gap-10 flex justify-evenly items-center flex-col py-10 my-10">
       <h1 className="font-bold text-4xl">Our Customers</h1>
-      <div className="flex justify-center items-center lg:flex-row flex-col gap-8">
+      <div className="flex justify-center py-12 items-center lg:flex-row flex-col gap-8">
         <ReviewCard
           name={"Person 1"}
           description={"Description 1"}

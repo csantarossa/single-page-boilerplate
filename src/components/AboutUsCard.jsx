@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUsCard = ({ name, description, img }) => {
   return (
-    <div className="card card-compact w-80 lg:w-96 bg-base-100 shadow-xl">
+    <div className="card card-compact w-80 lg:w-fit bg-base-100 shadow-xl">
       <figure>
         <img src={img} alt="Shoes" />
       </figure>
