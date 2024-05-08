@@ -7,7 +7,7 @@ import ImgCustThree from "../assets/images/customer-image-placeholder.svg";
 const CustomerReview = () => {
   return (
     <div className="w-full h-screen flex justify-evenly items-center flex-col">
-      <h1 className="font-bold text-4xl">Hear from our customers</h1>
+      <h1 className="font-bold text-4xl">Our Customers</h1>
       <div className="flex justify-center items-center lg:flex-row flex-col gap-8">
         <ReviewCard
           name={"Person 1"}
