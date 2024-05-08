@@ -20,7 +20,7 @@ const AboutUs = () => {
       <h1 className="font-bold text-4xl">About Us</h1>
       <div
         ref={container}
-        className="flex w-[90vw] py-12 justify-center items-center lg:flex-row flex-col gap-5"
+        className="flex w-[90vw] py-10 justify-center items-center lg:flex-row flex-col gap-5"
       >
         <motion.div style={{ y: y4 }} className="h-fit">
           <AboutUsCard
