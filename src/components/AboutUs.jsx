@@ -4,7 +4,7 @@ import ImagePlaceholder from "../assets/images/placeholder-image.webp";
 
 const AboutUs = () => {
   return (
-    <div className="h-screen w-full flex flex-col justify-evenly items-center">
+    <div className="min-h-screen w-full flex flex-col gap-10 justify-evenly items-center py-10">
       <h1 className="font-bold text-4xl">About Us</h1>
       <div className="flex w-[90vw] justify-center items-center lg:flex-row flex-col gap-5">
         <AboutUsCard
