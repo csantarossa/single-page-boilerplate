@@ -14,19 +14,19 @@ const ContactUs = ({ className }) => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm("service_4qiyob4", "template_3a31m8r", form.current, {
-        publicKey: "ov4yPBAzVjERN3Hl8",
-      })
-      .then(
-        () => {
-          console.log("SUCCESS");
-          closeModal();
-        },
-        (error) => {
-          console.log("FAILED...", error.text);
-        }
-      );
+    // emailjs
+    //   .sendForm("service_4qiyob4", "template_3a31m8r", form.current, {
+    //     publicKey: "ov4yPBAzVjERN3Hl8",
+    //   })
+    //   .then(
+    //     () => {
+    //       console.log("SUCCESS");
+    //       closeModal();
+    //     },
+    //     (error) => {
+    //       console.log("FAILED...", error.text);
+    //     }
+    //   );
   };
 
   const closeModal = () => {
