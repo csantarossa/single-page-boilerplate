@@ -23,25 +23,22 @@ const Navbar = () => {
       <div className="hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a className="font-medium">
-              <Link smooth to="#portfolio">
-                {link1}
-              </Link>
-            </a>
+            <Link className="font-medium" smooth to="#portfolio">
+              {link1}
+            </Link>
           </li>
           <li>
-            <details>
-              <summary className="font-medium">{link2}</summary>
-              <ul className="p-2 bg-base-100 rounded-t-none">
-                <li>
-                  <a className="font-medium">Process</a>
-                </li>
-                <li>
-                  <a className="font-medium">Reviews</a>
-                </li>
-              </ul>
-            </details>
+            <Link smooth to="#process" className="font-medium">
+              {" "}
+              Process
+            </Link>
           </li>
+          <li>
+            <Link className="font-medium" smooth to="#reviews">
+              Reviews
+            </Link>
+          </li>
+
           <li>
             <ContactUs className={"font-medium"} />
           </li>
@@ -64,27 +61,37 @@ const Navbar = () => {
         <div className="">
           <ul className="menu menu-vertical gap-5 px-1">
             <li>
-              <a className="text-xl" onClick={handleMenu}>
+              <Link
+                smooth
+                to="#portfolio"
+                className="text-xl"
+                onClick={handleMenu}
+              >
                 {link1}
-              </a>
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                smooth
+                to="#process"
+                className="text-xl"
+                onClick={handleMenu}
+              >
+                Process
+              </Link>
             </li>
             <li>
-              <details>
-                <summary className="text-xl">{link2}</summary>
-                <ul className="p-2 rounded-t-none">
-                  <li>
-                    <a className="text-lg py-3" onClick={handleMenu}>
-                      Process
-                    </a>
-                  </li>
-                  <li>
-                    <a className="text-lg py-3" onClick={handleMenu}>
-                      Reviews
-                    </a>
-                  </li>
-                </ul>
-              </details>
+              <Link
+                smooth
+                to="#reviews"
+                className="text-xl"
+                onClick={handleMenu}
+              >
+                Reviews
+              </Link>
             </li>
+
             <li>
               <a className="text-xl" onClick={handleMenu} href="#contact_form">
                 Contact

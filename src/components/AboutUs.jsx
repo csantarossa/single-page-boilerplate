@@ -21,7 +21,10 @@ const AboutUs = () => {
   const y4 = useTransform(scrollYProgress, [0, 1], [1, -500]);
 
   return (
-    <div className="min-h-screen w-full overflow-hidden flex flex-col gap-10 justify-evenly items-center py-10 bg-base-200">
+    <div
+      id="process"
+      className="min-h-screen w-full overflow-hidden flex flex-col gap-10 justify-evenly items-center py-10 bg-base-200"
+    >
       <h1 className="font-bold text-6xl lg:text-9xl">The Process</h1>
       <div
         ref={container}
