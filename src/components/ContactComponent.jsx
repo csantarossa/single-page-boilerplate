@@ -40,12 +40,12 @@ const ContactComponent = () => {
   return (
     <div
       id="contact_form"
-      className="h-screen w-full flex flex-col justify-center items-center"
+      className="h-screen w-full flex flex-col justify-center items-center bg-base-200"
     >
       <form ref={form} onSubmit={sendEmail} className="w-[82%] lg:w-[30vw]">
         <div className="w-full gap-5 flex flex-col justify-center">
           <h1 className="font-bold text-4xl w-full mb-10 text-center">
-            Contact Us
+            Let's Get in Touch
           </h1>
 
           {/* Name */}
@@ -154,6 +154,7 @@ const ContactComponent = () => {
               setMessage(e.target.value);
             }}
           ></textarea>
+          <input type="file" className="file-input w-full max-w-xs" />
 
           {/* if there is a button in form, it will close the modal */}
           <div className="flex justify-end items-center w-full">

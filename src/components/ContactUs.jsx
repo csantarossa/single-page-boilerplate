@@ -48,7 +48,7 @@ const ContactUs = ({ className }) => {
         Contact Us
       </button>
       <form ref={form} onSubmit={sendEmail}>
-        <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
+        <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle ">
           <div className="modal-box gap-5 flex flex-col justify-center">
             <h3 className="font-bold text-lg">Message</h3>
 
@@ -158,6 +158,7 @@ const ContactUs = ({ className }) => {
                 setMessage(e.target.value);
               }}
             ></textarea>
+            <input type="file" className="file-input w-full max-w-xs" />
 
             {/* if there is a button in form, it will close the modal */}
             <div className="flex justify-between items-center w-full">
