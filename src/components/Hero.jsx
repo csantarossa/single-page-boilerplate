@@ -5,7 +5,7 @@ import Camera from "@geist-ui/icons/camera";
 const Hero = () => {
   return (
     <div className="hero min-h-screen bg-base-200">
-      <div className="hero-content gap-16 flex-col lg:flex-row mt-10">
+      <div className="hero-content gap-16 lg:gap-32 flex-col lg:flex-row mt-10">
         <div className="max-w-md relative flex items-center lg:items-start flex-col justify-center">
           <div className="flex lg:justify-start items-center gap-3">
             <h1 className="lg:text-5xl text-2xl z-10 font-bold mr-2">
