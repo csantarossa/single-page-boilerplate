@@ -8,11 +8,16 @@ const Hero = () => {
       <div className="hero-content gap-16 flex-col lg:flex-row mt-10">
         <div className="max-w-md relative flex items-center lg:items-start flex-col justify-center">
           <div className="flex lg:justify-start items-center gap-3">
-            <div className="w-[190px] h-16 absolute right-2 lg:right-[-10px] z-0 -rotate-2 bg-[#261432]"></div>
             <h1 className="lg:text-5xl text-2xl z-10 font-bold mr-2">
               Capture the
             </h1>
-            <h1 className="text-5xl z-10 font-bold text-[#EEEAE6]">Flavour</h1>
+            <div className="w-fit h-fit flex justify-center items-center">
+              <div className="w-[190px] h-16 absolute z-0 -rotate-2 bg-[#261432]"></div>
+
+              <h1 className="text-5xl z-10 font-bold text-[#EEEAE6]">
+                Flavour
+              </h1>
+            </div>
           </div>
 
           <p className="py-6 text-center lg:text-start">
