@@ -15,7 +15,7 @@ const LandingPage = () => {
     <div>
       <Navbar />
       <Hero />
-      <Demonstration id="portfolio" />
+      <Demonstration />
       <AboutUs />
       <CustomerReview />
       <ContactComponent />

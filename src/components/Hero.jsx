@@ -5,7 +5,7 @@ import Camera from "@geist-ui/icons/camera";
 const Hero = () => {
   return (
     <div className="hero min-h-screen bg-base-200">
-      <div className="hero-content gap-16 flex-col lg:flex-row mt-10">
+      <div className="hero-content gap-16 flex-col lg:flex-row mt-10 px-0">
         <div className="max-w-md relative flex items-center lg:items-start flex-col justify-center">
           <div className="flex lg:justify-start items-center gap-3">
             <h1 className="lg:text-5xl text-2xl z-10 font-bold mr-2">
@@ -25,10 +25,12 @@ const Hero = () => {
             <strong>create.</strong> transforms your dishes into stunning visual
             stories.
           </p>
-          <button className="btn btn-primary">
-            <Camera size={20} />
-            Portfolio
-          </button>
+          <a href="#portfolio" className="w-fit h-fit">
+            <button className="btn btn-primary">
+              <Camera size={20} />
+              Portfolio
+            </button>
+          </a>
         </div>
         <Carousel />
       </div>

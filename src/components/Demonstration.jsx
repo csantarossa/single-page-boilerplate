@@ -40,7 +40,10 @@ const Demonstration = () => {
   );
 
   return (
-    <div className="lg:min-h-[200vh] h-fit bg-base-200 overflow-hidden w-full flex flex-col justify-center items-center relative py-10">
+    <div
+      id="portfolio"
+      className="lg:min-h-[200vh] h-fit bg-base-200 overflow-hidden w-full flex flex-col justify-center items-center relative py-10"
+    >
       <h1 className="font-bold text-6xl lg:text-9xl absolute top-10">
         Portfolio
       </h1>
