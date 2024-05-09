@@ -3,7 +3,7 @@ import React from "react";
 const ReviewCard = ({ name, description, rating, img }) => {
   return (
     <div className="card h-[50vh] card-compact w-80 lg:w-96 bg-base-100 shadow-xl hover:scale-105 duration-200">
-      <figure className="w-full h-56 overflow-hidden">
+      <figure className="w-full h-fit overflow-hidden">
         <img src={img} className="h-auto w-full object-cover " alt="images" />
       </figure>
       <div className="card-body">
