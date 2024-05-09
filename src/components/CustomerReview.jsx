@@ -2,7 +2,7 @@ import React from "react";
 import ReviewCard from "./ReviewCard";
 import ImgCustOne from "../assets/images/reviewers/irene-strong-v2aKnjMbP_k-unsplash.jpg";
 import ImgCustTwo from "../assets/images/reviewers/jake-nackos-IF9TK5Uy-KI-unsplash.jpg";
-import ImgCustThree from "../assets/images/reviewers/stefan-stefancik-QXevDflbl8A-unsplash.jpg";
+import ImgCustThree from "../assets/images/reviewers/aiony-haust-3TLl_97HNJo-unsplash.jpg";
 
 const CustomerReview = () => {
   return (
