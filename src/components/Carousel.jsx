@@ -3,7 +3,7 @@ import { ArrowUp } from "@geist-ui/icons";
 
 const Carousel = () => {
   return (
-    <div className="h-96 carousel carousel-vertical rounded-2xl w-fit overflow-x-visible">
+    <div className="h-96 carousel carousel-vertical rounded-2xl w-fit overflow-x-visible padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)">
       <div className="carousel-item h-full relative">
         <h3 className="absolute top-5 text-3xl cursive font-semibold text-center w-full opacity-75 animate-pulse">
           Scroll Here
